@@ -1,0 +1,12 @@
+<HeaderedContentControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="FoundationLibrary.Controls.GroupBox"
+             BorderThickness="1">
+  <HeaderedContentControl.Resources>
+    <ResourceDictionary>
+      <ResourceDictionary.MergedDictionaries>
+        <ResourceInclude Source="avares://TestAvalonia/Controls/GroupBoxTheme.axaml" />
+      </ResourceDictionary.MergedDictionaries>
+    </ResourceDictionary>  
+  </HeaderedContentControl.Resources>
+</HeaderedContentControl>
